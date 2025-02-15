@@ -2,14 +2,16 @@
   "name": "red-dirt-ag-backend",
   "version": "1.0.0",
   "main": "index.js",
+  "description": "",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "dev": "nodemon src/server.js",
+  "start": "node src/server.js",
+  "prisma-seed": "node prisma/seed.js"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "type": "module",
   "dependencies": {
     "@prisma/client": "^6.3.0",
     "cors": "^2.8.5",
